@@ -1,0 +1,86 @@
+.home-hero {
+    padding: 80px 3.6603vw  ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px dotted #eee;
+}
+.home-hero .main {
+    width: 48%;
+    position: relative;
+    padding-top: 20px;
+}
+.home-hero img {
+    width: 100%;
+}
+.home-hero .main-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.home-hero .main-info h1 {
+    font-size: 53px;
+    color: #fff;
+}
+.home-hero .main-info p {
+    color: #fff;
+    font-size: 30px;
+    max-width: max-content;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-style: italic;
+}
+.home-hero .other {
+    width: 48% ;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home-hero .other .top, .other .bottom {
+    display: flex;
+    gap: 20px;
+}
+.home-hero .card {
+    position: relative;
+}
+.info  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.info h4{
+    font-size: 25px;
+    color: #fff;
+}
+.info p {
+    color: #fff;
+    font-style: italic;
+    padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    .home-hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-hero .other , .home-hero .main {
+        width: 100%;
+    }
+    .home-hero .main h1 {
+        font-size: 30px !important;
+    }
+    .home-hero .main p {
+        font-size: 20px;
+    }
+    .home-hero .other h4 {
+        font-size: 18px;
+    }
+    .home-hero .other p {
+        font-size: 14px;
+    }
+}

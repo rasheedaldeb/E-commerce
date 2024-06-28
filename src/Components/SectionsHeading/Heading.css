@@ -1,0 +1,16 @@
+.heading {
+    max-width: 730px;
+    padding: 70px 3.1244vw 0;
+}
+.heading h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+.heading p {
+    font-style: italic;
+    color: #a1a1a1;
+    padding-top: 15px;
+}
+.center {
+    margin: 0 auto;
+}

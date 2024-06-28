@@ -1,0 +1,59 @@
+.contact-section {
+    padding: 60px 3.1244vw;
+    display: flex;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.contact-section iframe {
+    border: none;
+}
+.contact-form .name-email {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding-left: 40px;
+    border: none;
+}
+.name-email input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.contact-form .message {
+    width: 100%;
+    padding-left: 40px;
+    height: 130px;
+}
+.message input {
+    width: 100%;
+    height: 130px;
+    padding-left: 10px;
+}
+.contact-form button {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .contact-section iframe {
+        width: 100% !important;
+    }
+}

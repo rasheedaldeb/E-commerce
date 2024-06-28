@@ -1,0 +1,18 @@
+.hero {
+    height: 80vh;
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 52px;
+    color: #fff;
+}
+@media screen and (max-width:768px) {
+    .about-hero h1 {
+        font-size: 35px;
+    }
+}
